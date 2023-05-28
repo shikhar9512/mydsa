@@ -1,0 +1,18 @@
+
+#include<iostream>
+using namespace std;
+
+int main () {
+
+ 
+  double num=9;
+  double *m=&num;
+  double *n=m;
+  cout<<"adress stored in m"<<m<<endl;
+  cout<<n<<endl;
+  cout<<++m<<endl;
+
+
+
+    return 0;
+}
