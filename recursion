@@ -1,0 +1,28 @@
+when a fn cals itself
+big/complex problem soln depends on simiar type of small problem
+for eg in 2^n
+2^5=2*2^4
+for eg 6!=6*5!
+n!=n*(n-1)!
+
+Base Case
+jaha pe ruk jana ho ,eg 0! and 2^1
+so we basically need 
+1. a base Case(IT IS MANDATORY TOWRITE RETURN IN BASE CASE)
+2. a recursive relation
+3. processing part ( printing sth.,updating sth)
+TAIL RECURSION
+
+funcion(){
+    base Case
+    processing
+    recursive relation
+}
+
+HEAD RECURSION
+
+funcion(){
+    base Case
+    recursive relation
+    processing
+}
